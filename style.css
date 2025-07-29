@@ -1,0 +1,136 @@
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  #user_name, #draft {
+    margin-bottom: 12px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+
+  textarea {
+    resize: none;
+    font-family: inherit;
+  }
+
+  img {
+    margin: 5px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: inline;
+  }
+
+  img:hover {
+    border-color: #555;
+  }
+
+  button {
+    margin: 5px 5px 15px 0;
+    padding: 8px 16px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  button:hover {
+    background-color: #555;
+  }
+
+  #all_posts {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  #all_posts > div {
+    background-color: white;
+    padding: 16px 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    position: relative;
+  }
+
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .post-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #111;
+  }
+
+  .post-header span {
+    font-size: 0.85rem;
+    color: #777;
+  }
+
+  #all_posts p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .comment-box {
+    margin-top: 12px;
+  }
+
+  .comment-box input[type="text"] {
+    padding: 6px;
+    width: calc(100% - 90px);
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 6px;
+  }
+
+  .comment-box button {
+    padding: 6px 12px;
+  }
+
+  .comment-box div {
+    background-color: #f5f5f5;
+    padding: 6px 10px;
+    margin-top: 8px;
+    border-radius: 4px;
+    color: #333;
+  }
+  .img-wrapper {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 8px;
+  margin-top: 12px;
+}
+.img-wrapper img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
